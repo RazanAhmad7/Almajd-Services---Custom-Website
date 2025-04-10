@@ -1,0 +1,198 @@
+﻿@{
+    ViewBag.Title = "Contact Us";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Almajd Services for Catering and Facility Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link href="~/css/index.css" rel="stylesheet" />
+    <style>
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+            }
+
+        .form-control {
+            padding: 8px 12px; /* Reduced padding to make height smaller */
+            border-radius: 8px;
+            border: 1px solid #ced4da;
+            margin-bottom: 1px;
+            height: auto; /* Override default height */
+            line-height: 1.2; /* Reduced line height */
+        }
+
+            .form-control:focus {
+                box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+                border-color: #86b7fe;
+            }
+
+        textarea.form-control {
+            padding: 8px 12px; /* Keep the same padding as inputs */
+        }
+
+        .contact-icon {
+            min-width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .map-container {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+        .map-iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+            <div class="container">
+                <!-- Logo and Brand -->
+                <a class="navbar-brand d-flex align-items-center" href="">
+                    <img src="~/images/logooo-removebg-preview.png" alt="Al Majd Logo" height="40" class="me-2" />
+                    <span class="fw-bold text-primary-custom">Al Majd</span>
+                </a>
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-3">
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" asp-controller="Services" asp-action="Index">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" asp-controller="About" asp-action="Index">Who Are We</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" asp-controller="Career" asp-action="Index">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-medium" asp-controller="Contact" asp-action="Index">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Language Selector Button -->
+                    <div class="d-flex align-items-center">
+                        <a id="languageButton" href="javascript:void(0);" class="btn btn-sm btn-outline-primary-custom rounded-pill px-3 d-flex align-items-center" onclick="switchLanguage('en')">
+                            <i class="bi bi-translate me-1"></i>العربية
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header Section -->
+    <section class="py-5 pattern-bg text-center text-dark">
+        <div class="container">
+            <h1 class="fw-bold text-secondary-custom display-5">Contact Us</h1>
+            <p class="lead mt-3 text-secondary-custom">Have a question or need assistance? Our team is here to help you—reach out anytime!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container py-4">
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body d-flex flex-column justify-content-start align-items-start p-4">
+                            <h4 class="card-title mb-4 text-secondary-custom">Send Us a Message</h4>
+                            <form class="w-100">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="company" class="form-label">Company Name</label>
+                                    <input type="text" class="form-control" id="company" placeholder="Your Company">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="4" placeholder="Tell us about your needs"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary-custom px-4 py-2">Submit Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body d-flex flex-column justify-content-start align-items-start p-4">
+                            <h4 class="card-title mb-4 text-secondary-custom">Contact Information</h4>
+                            <ul class="list-unstyled w-100">
+                                <li class="mb-4 d-flex">
+                                    <i class="bi bi-geo-alt-fill text-primary-custom fs-4 me-3"></i>
+                                    <div>
+                                        <h5 class="mb-1">Address</h5>
+                                        <p>Saudi Arabia, Riyadh</p>
+                                    </div>
+                                </li>
+                                <li class="mb-4 d-flex">
+                                    <i class="bi bi-telephone-fill text-primary-custom fs-4 me-3"></i>
+                                    <div>
+                                        <h5 class="mb-1">Phone</h5>
+                                        <p>+966 12 345 6789</p>
+                                    </div>
+                                </li>
+                                <li class="mb-4 d-flex">
+                                    <i class="bi bi-envelope-fill text-primary-custom fs-4 me-3"></i>
+                                    <div>
+                                        <h5 class="mb-1">Email</h5>
+                                        <p>info@almajdcatering.com</p>
+                                    </div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bi bi-clock-fill text-primary-custom fs-4 me-3"></i>
+                                    <div>
+                                        <h5 class="mb-1">Business Hours</h5>
+                                        <p>Sunday - Thursday: 8:00 AM - 5:00 PM</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Section -->
+                <div class="col-12 mt-4">
+                    <div class="map-container">
+                        <!-- Replace the src URL with your specific Google Maps location -->
+                        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1595.0763547618103!2d35.8529437458838!3d32.53067375887824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c76e88143f9b5%3A0x59e26f4b8cbf7a96!2z2LXZitiv2YTZitipINiv2YjYp9mD2YU!5e0!3m2!1sar!2sjo!4v1744065358349!5m2!1sar!2sjo" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

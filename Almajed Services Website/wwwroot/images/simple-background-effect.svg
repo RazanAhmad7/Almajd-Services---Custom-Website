@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <!-- Subtle wave background -->
+  <path d="M0,50 C150,80 250,20 400,50 C550,80 650,20 800,50 C950,80 1050,20 1200,50 L1200,600 L0,600 Z" fill="#63a49d" opacity="0.05"/>
+  <path d="M0,150 C150,180 250,120 400,150 C550,180 650,120 800,150 C950,180 1050,120 1200,150 L1200,600 L0,600 Z" fill="#63a49d" opacity="0.03"/>
+  
+  <!-- Scattered dots pattern -->
+  <g opacity="0.2">
+    <circle cx="100" cy="100" r="3" fill="#63a49d"/>
+    <circle cx="200" cy="150" r="2" fill="#63a49d"/>
+    <circle cx="300" cy="120" r="4" fill="#63a49d"/>
+    <circle cx="400" cy="200" r="2" fill="#63a49d"/>
+    <circle cx="500" cy="100" r="3" fill="#63a49d"/>
+    <circle cx="600" cy="180" r="3" fill="#63a49d"/>
+    <circle cx="700" cy="150" r="2" fill="#63a49d"/>
+    <circle cx="800" cy="220" r="4" fill="#63a49d"/>
+    <circle cx="900" cy="130" r="3" fill="#63a49d"/>
+    <circle cx="1000" cy="190" r="2" fill="#63a49d"/>
+    <circle cx="1100" cy="160" r="3" fill="#63a49d"/>
+    
+    <circle cx="150" cy="250" r="2" fill="#63a49d"/>
+    <circle cx="250" cy="300" r="3" fill="#63a49d"/>
+    <circle cx="350" cy="270" r="2" fill="#63a49d"/>
+    <circle cx="450" cy="320" r="4" fill="#63a49d"/>
+    <circle cx="550" cy="280" r="2" fill="#63a49d"/>
+    <circle cx="650" cy="310" r="3" fill="#63a49d"/>
+    <circle cx="750" cy="270" r="3" fill="#63a49d"/>
+    <circle cx="850" cy="330" r="2" fill="#63a49d"/>
+    <circle cx="950" cy="290" r="4" fill="#63a49d"/>
+    <circle cx="1050" cy="310" r="3" fill="#63a49d"/>
+    <circle cx="1150" cy="270" r="2" fill="#63a49d"/>
+    
+    <circle cx="120" cy="380" r="3" fill="#63a49d"/>
+    <circle cx="220" cy="420" r="2" fill="#63a49d"/>
+    <circle cx="320" cy="390" r="4" fill="#63a49d"/>
+    <circle cx="420" cy="430" r="2" fill="#63a49d"/>
+    <circle cx="520" cy="400" r="3" fill="#63a49d"/>
+    <circle cx="620" cy="440" r="3" fill="#63a49d"/>
+    <circle cx="720" cy="410" r="2" fill="#63a49d"/>
+    <circle cx="820" cy="450" r="4" fill="#63a49d"/>
+    <circle cx="920" cy="400" r="3" fill="#63a49d"/>
+    <circle cx="1020" cy="430" r="2" fill="#63a49d"/>
+    <circle cx="1120" cy="410" r="3" fill="#63a49d"/>
+  </g>
+  
+  <!-- Subtle diagonal lines -->
+  <g opacity="0.1" stroke="#63a49d" stroke-width="1">
+    <line x1="0" y1="500" x2="100" y2="400"/>
+    <line x1="200" y1="500" x2="300" y2="400"/>
+    <line x1="400" y1="500" x2="500" y2="400"/>
+    <line x1="600" y1="500" x2="700" y2="400"/>
+    <line x1="800" y1="500" x2="900" y2="400"/>
+    <line x1="1000" y1="500" x2="1100" y2="400"/>
+  </g>
+</svg>

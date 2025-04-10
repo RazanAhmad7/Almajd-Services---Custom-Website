@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Almajed Services Website.props" />
+</Project>

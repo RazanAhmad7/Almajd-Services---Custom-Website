@@ -1,0 +1,558 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Migrations\\20250410195209_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Almajed Services Website\\Migrations\\20250410195209_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\models\\requestforquotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\models\\requestforquotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\models\\jobrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\models\\jobrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\views\\career\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\views\\career\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\controllers\\careercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\controllers\\careercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\css\\services.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\css\\services.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\css\\contact.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\css\\contact.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\almajed services website.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\almajed services website.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|c:\\mostaql jobs\\my first job - catering company\\almajed services website\\almajed services website\\almajed services website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87F7BB-CC54-47C1-A3B9-ED541837A5B5}|Almajed Services Website\\Almajed Services Website.csproj|solutionrelative:almajed services website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Almajed Services Website\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwC0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T23:08:14.987Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Almajed Services Website\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T14:27:48.876Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250410195209_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Migrations\\20250410195209_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Migrations\\20250410195209_InitialCreate.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Migrations\\20250410195209_InitialCreate.cs",
+              "RelativeToolTip": "Almajed Services Website\\Migrations\\20250410195209_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T19:52:09.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobRequests.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Models\\JobRequests.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Models\\JobRequests.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Models\\JobRequests.cs",
+              "RelativeToolTip": "Almajed Services Website\\Models\\JobRequests.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:00:13.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestForQuotation.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Models\\RequestForQuotation.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Models\\RequestForQuotation.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Models\\RequestForQuotation.cs",
+              "RelativeToolTip": "Almajed Services Website\\Models\\RequestForQuotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:23:32.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Models\\ContactMessage.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "Almajed Services Website\\Models\\ContactMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:33:20.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Almajed Services Website\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:40:12.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Career\\Index.cshtml",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Views\\Career\\Index.cshtml",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Career\\Index.cshtml",
+              "RelativeToolTip": "Almajed Services Website\\Views\\Career\\Index.cshtml",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAtwMgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T19:29:53.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\appsettings.json",
+              "RelativeDocumentMoniker": "Almajed Services Website\\appsettings.json",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\appsettings.json",
+              "RelativeToolTip": "Almajed Services Website\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T20:10:52.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CareerController.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Controllers\\CareerController.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Controllers\\CareerController.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Controllers\\CareerController.cs",
+              "RelativeToolTip": "Almajed Services Website\\Controllers\\CareerController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T19:29:47.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Program.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Program.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Program.cs",
+              "RelativeToolTip": "Almajed Services Website\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:52:28.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Almajed Services Website\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T19:58:59.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Almajed Services Website\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAYwMUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T21:06:58.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "Almajed Services Website\\Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAANgAAAAAAAAAAAASwOAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T13:25:53.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Almajed Services Website\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T21:06:06.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "bootstrap.css.map",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACTKwYAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-07T22:16:57.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAABcCAAAAAAAAAIBZwCYCAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T22:16:50.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "services.css",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\services.css",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\css\\services.css",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\services.css",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\css\\services.css",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBZwBAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T13:27:02.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "contact.css",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\contact.css",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\css\\contact.css",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\contact.css",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\css\\contact.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T22:19:43.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "bootstrap.min.css.map",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAH1gQAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-07T22:17:00.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "bootstrap.rtl.css",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "ViewState": "AgIAABsCAAAAAAAAAAAqwCQCAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T22:17:03.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "bootstrap.rtl.css.map",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA9KwYAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-07T22:17:04.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "bootstrap.rtl.min.css.map",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADmrgcAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-07T22:17:05.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "contact.css",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\contact.css",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\css\\contact.css",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\contact.css",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\css\\contact.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T21:45:06.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\css\\index.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-06T23:03:50.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T21:22:06.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "Almajed Services Website\\Controllers\\ServicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:25:27.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Almajed Services Website",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website.csproj",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Almajed Services Website.csproj",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website.csproj",
+              "RelativeToolTip": "Almajed Services Website\\Almajed Services Website.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T12:37:33.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "bootstrap-reboot.min.css.map",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALCgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-07T12:32:56.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "bootstrap-reboot.css.map",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeDocumentMoniker": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeToolTip": "Almajed Services Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABTKQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-07T12:32:53.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Almajed Services Website\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Mostaql Jobs\\My First Job - Catering Company\\Almajed Services Website\\Almajed Services Website\\Almajed Services Website\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Almajed Services Website\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:57:16.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 249,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

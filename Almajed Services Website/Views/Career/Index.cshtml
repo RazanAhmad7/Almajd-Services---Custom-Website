@@ -1,0 +1,359 @@
+﻿
+@{
+    ViewBag.Title = "Careers";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Almajd Services for Catering and Facility Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link href="~/css/index.css" rel="stylesheet" />
+    <style>
+        .job-card {
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #eaeaea;
+            overflow: hidden;
+        }
+
+            .job-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            }
+
+
+
+        .upload-area {
+            border: 2px dashed #ced4da;
+            border-radius: 8px;
+            padding: 0.8rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+            .upload-area:hover {
+                border-color: #0d6efd;
+                background-color: rgba(13, 110, 253, 0.05);
+            }
+
+        .benefit-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: rgba(13, 110, 253, 0.1);
+            color: #0d6efd;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .form-control {
+            padding: 10px 12px;
+            border-radius: 8px;
+        }
+
+            .form-control:focus {
+                box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+                border-color: #86b7fe;
+            }
+
+        #resume-file {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+            <div class="container">
+                <!-- Logo and Brand -->
+                <a class="navbar-brand d-flex align-items-center" href="">
+                    <img src="~/images/logooo-removebg-preview.png" alt="Al Majd Logo" height="40" class="me-2" />
+                    <span class="fw-bold text-primary-custom">Al Majd</span>
+                </a>
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-3">
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" asp-controller="Services" asp-action="Index">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" asp-controller="About" asp-action="Index">Who Are We</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-medium" asp-controller="Career" asp-action="Index">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-medium" asp-controller="Contact" asp-action="Index">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Language Selector Button -->
+                    <div class="d-flex align-items-center">
+                        <a id="languageButton" href="javascript:void(0);" class="btn btn-sm btn-outline-primary-custom rounded-pill px-3 d-flex align-items-center" onclick="switchLanguage('en')">
+                            <i class="bi bi-translate me-1"></i>العربية
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Section -->
+    <section class="py-5 pattern-bg text-center text-dark">
+        <div class="container">
+            <h1 class="fw-bold text-secondary-custom display-5">Careers</h1>
+            <p class="lead mt-3 text-secondary-custom">Join our team and be part of a company that values excellence, innovation, and growth!</p>
+        </div>
+    </section>
+
+    <!-- Career Opportunities Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead">At Al Majd, we believe in fostering a supportive environment where talent thrives and careers flourish. We're always looking for passionate individuals to join our team.</p>
+                </div>
+            </div>
+
+            <!-- Benefits Row -->
+            <div class="row ">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="text-center">
+                        <div class="benefit-icon mx-auto">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <h4 class="fw-bold text-secondary-custom">Career Growth</h4>
+                        <p>We invest in our employees' professional development with training programs and advancement opportunities.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="text-center">
+                        <div class="benefit-icon mx-auto">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h4 class="fw-bold text-secondary-custom">Collaborative Culture</h4>
+                        <p>Join a team of like-minded professionals who support each other and work together towards common goals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="benefit-icon mx-auto">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h4 class="fw-bold text-secondary-custom">Competitive Benefits</h4>
+                        <p>We offer competitive salaries, health insurance, and other benefits to ensure your wellbeing.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4 p-lg-5">
+                            <h3 class="fw-bold text-secondary-custom text-center mb-4">Submit Your Application</h3>
+                            <p class="text-center mb-4">Want to join our team? Send us your resume, and we'll contact you as soon as possible.</p>
+
+                            <form asp-controller="Career" asp-action="SubmitApplication" method="post" enctype="multipart/form-data">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="firstName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Upload Your Resume</label>
+                                        <div class="upload-area" id="upload-area">
+                                            <i class="bi bi-cloud-arrow-up fs-1 text-primary-custom"></i>
+                                            <h5 class="mt-3">Drag & Drop your file here</h5>
+                                            <p class="text-muted">or</p>
+                                            <button type="button" class="btn btn-primary-custom px-4" id="upload-button">Browse Files</button>
+                                            <p class="mt-2 text-muted small">Supported formats: PDF, DOC, DOCX (Max size: 5MB)</p>
+                                        </div>
+                                        <input  type="file" class="form-control" id="resume-file" accept=".pdf,.doc,.docx" />
+                                        <div id="file-name" class="mt-2 text-center"></div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button type="submit" class="btn btn-primary-custom w-100 py-3">Submit Application</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Modal -->
+    <div class="modal fade" id="jobModal" tabindex="-1" aria-labelledby="jobModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="jobModalLabel">Job Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="fw-bold text-secondary-custom">Catering Manager</h4>
+                    <p class="text-muted"><i class="bi bi-geo-alt"></i> Riyadh, Saudi Arabia | <i class="bi bi-briefcase"></i> Full-time</p>
+
+                    <h5 class="mt-4 fw-bold">Job Description</h5>
+                    <p>We are seeking an experienced Catering Manager to oversee our catering operations, coordinate with clients, and ensure high-quality service delivery. The ideal candidate will have a passion for food service and excellent managerial skills.</p>
+
+                    <h5 class="mt-4 fw-bold">Responsibilities</h5>
+                    <ul>
+                        <li>Oversee day-to-day catering operations and ensure smooth service delivery</li>
+                        <li>Manage catering staff, including hiring, training, and performance reviews</li>
+                        <li>Maintain quality control standards for all catering services</li>
+                        <li>Develop and implement catering procedures and policies</li>
+                        <li>Coordinate with clients to understand their needs and preferences</li>
+                        <li>Prepare catering proposals and quotes for clients</li>
+                        <li>Ensure compliance with health and safety regulations</li>
+                    </ul>
+
+                    <h5 class="mt-4 fw-bold">Requirements</h5>
+                    <ul>
+                        <li>3+ years of experience in catering management</li>
+                        <li>Strong leadership and team management skills</li>
+                        <li>Excellent customer service and communication abilities</li>
+                        <li>Knowledge of food safety regulations and standards</li>
+                        <li>Ability to work under pressure and meet deadlines</li>
+                        <li>Proficiency in MS Office and catering management software</li>
+                        <li>Bachelor's degree in Hospitality Management or related field preferred</li>
+                    </ul>
+
+                    <h5 class="mt-4 fw-bold">Benefits</h5>
+                    <ul>
+                        <li>Competitive salary based on experience</li>
+                        <li>Health insurance and retirement plans</li>
+                        <li>Paid time off and holidays</li>
+                        <li>Professional development opportunities</li>
+                        <li>Employee meal program</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary-custom" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#resume-file').on('change', function () {
+            const file = this.files[0];
+            const allowedTypes = [
+                'application/pdf',
+                'application/msword',
+                'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+            ];
+            const maxSize = 5 * 1024 * 1024;
+
+            if (file) {
+                if (!allowedTypes.includes(file.type)) {
+                    alert('Only PDF, DOC, and DOCX files are allowed.');
+                    this.value = '';
+                    return;
+                }
+
+                if (file.size > maxSize) {
+                    alert('File must be less than 5MB.');
+                    this.value = '';
+                    return;
+                }
+
+                $('#file-name').text(file.name); // Show file name
+            }
+        });
+
+        $('#upload-button').on('click', function () {
+            $('#resume-file').click(); // Browse button triggers file input
+        });
+    </script>
+
+    <script>
+        // File upload functionality
+        document.addEventListener('DOMContentLoaded', function () {
+            const uploadArea = document.getElementById('upload-area');
+            const fileInput = document.getElementById('resume-file');
+            const uploadButton = document.getElementById('upload-button');
+            const fileNameDisplay = document.getElementById('file-name');
+
+            // Trigger file input when upload area is clicked
+            uploadButton.addEventListener('click', function () {
+                fileInput.click();
+            });
+
+            uploadArea.addEventListener('click', function () {
+                fileInput.click();
+            });
+
+            // Display file name when selected
+            fileInput.addEventListener('change', function () {
+                if (this.files && this.files[0]) {
+                    const fileName = this.files[0].name;
+                    fileNameDisplay.innerHTML = `<div class="alert alert-success"><i class="bi bi-check-circle"></i> ${fileName} uploaded successfully</div>`;
+                    uploadArea.style.borderColor = '#28a745';
+                }
+            });
+
+            // Drag and drop functionality
+            uploadArea.addEventListener('dragover', function (e) {
+                e.preventDefault();
+                uploadArea.style.borderColor = '#0d6efd';
+                uploadArea.style.backgroundColor = 'rgba(13, 110, 253, 0.1)';
+            });
+
+            uploadArea.addEventListener('dragleave', function (e) {
+                e.preventDefault();
+                uploadArea.style.borderColor = '#ced4da';
+                uploadArea.style.backgroundColor = 'transparent';
+            });
+
+            uploadArea.addEventListener('drop', function (e) {
+                e.preventDefault();
+                uploadArea.style.borderColor = '#28a745';
+                uploadArea.style.backgroundColor = 'transparent';
+
+                if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+                    fileInput.files = e.dataTransfer.files;
+                    const fileName = e.dataTransfer.files[0].name;
+                    fileNameDisplay.innerHTML = `<div class="alert alert-success"><i class="bi bi-check-circle"></i> ${fileName} uploaded successfully</div>`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
